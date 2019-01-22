@@ -2,9 +2,20 @@
 /* CSS Document */
 
 .maincontent {
-    background-color: #f3f3f3;
     min-height: 100%;
     width:100%;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.content_section {
+    margin: 40px auto;
+    width: 85%;
+}
+.about_me img {
+    width: 101% !important;
 }
 
 .maincontent div img {
