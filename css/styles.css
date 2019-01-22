@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.maincontent {
+    background-color: #f3f3f3;
+    min-height: 100%;
+    width:100%;
+}
+
+.maincontent div img {
+    width: 100%;
+}
+
+.breadcrumb{
+    width:19%;
+    float:left;
+    background-color: white !important;
+    margin-bottom: 0 !important;
+}
+
+.long {
+    width:23% !important;
+}
+
+nav {
+    height:50px;
+}
+
+.row {
+    margin: 0;
+}
+
+.about_me {
+    max-width:33%;
+    display: inline-block;
+}
