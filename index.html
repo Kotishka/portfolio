@@ -9,49 +9,41 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link href="css/hamburgers.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <title>Yaroslava Boyko</title>
 </head>
 
-<body>
+<body class="container">
   <header>
     <nav>
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-lg-7">
-          <h1>Yaroslava Boyko</h1>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-5">
-          <button id="hamburger" class="hamburger hamburger--collapse" type="button" onclick="myFunction()" aria-label="Menu" aria-controls="navigation"
-            aria-expanded="true/false">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-          <div style="clear:both"></div>
-          <div id="navigation">
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="aboutme.html">About Me</a>
-              </li>
-              <li>
-                <a href="projects.html">Projects</a>
-              </li>
-              <li>
-                <a href="resume.html">Resume</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </div>
+      <button id="hamburger" class="hamburger hamburger--collapse" type="button" onclick="myFunction()" aria-label="Menu" aria-controls="navigation"
+        aria-expanded="true/false">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div id="navigation">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About Me</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="resume.html">Resume</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
+  <div style="clear:both"></div>
 
   <main class="maincontent">
     <div>
@@ -60,21 +52,26 @@
   </main>
 
   <footer class="footer">
-    <div class="breadcrumb">
-      <a href="index.html">Home</a>
+    <div id="footer">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href=" ">Sitemap</a>
+        </li>
+        <li>
+          <a href="Credit.html">Credit</a>
+        </li>
+        <li>
+          <a href="projects.html">Accessibility</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="breadcrumb">
-      <a href=" ">Sitemap</a>
-    </div>
-    <div class="breadcrumb">
-      <a href="Credit.html">Credit</a>
-    </div>
-    <div class="breadcrumb long">
-      <a href="projects.html">Accessibility</a>
-    </div>
-    <div class="breadcrumb">
-      <a href="contact.html">Contact</a>
-    </div>
+  </footer>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

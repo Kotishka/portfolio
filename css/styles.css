@@ -4,24 +4,35 @@
 .maincontent {
     min-height: 250px;
     width:100%;
+    padding: 20px 10px;
 }
 
 p {
     margin: 10px 0;
 }
 
+/* footer */
 footer {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
 }
 
-footer .long {
-    width:23% !important;  
+#footer ul {
+    list-style-type: none;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+}
+#footer li {
+    clear:both;
+    padding: 10px 0;
+    margin: auto;
 }
 
-footer .breadcrumb {
-        width:18%;
+#footer a {
+    color: black;
 }
+
 .content_section {
     margin: 40px auto;
     width: 85%;
@@ -34,17 +45,6 @@ footer .breadcrumb {
     width: 100%;
 }
 
-.breadcrumb{
-    width:19%;
-    float:left;
-    background-color: #ffffff00 !important;
-    margin-bottom: 0 !important;
-}
-
-.long {
-    width:23% !important;
-}
-
 .row {
     margin: auto;
 }
@@ -52,30 +52,92 @@ footer .breadcrumb {
     max-width:33%;
     display: inline-block;
 }
-/* Media Queries */
 
 #navigation ul {
     list-style-type: none;
-    align-items: right;
     overflow: auto;
+    width: 100%;
+    margin: 0;
+    background-color: #8c6e77;
 }
 #navigation li {
-    float:right;
     clear:both;
+    padding: 10px 0;
+    margin: auto;
 }
 
-@media screen and (max-width:1144px) and (min-width:875px) {
-
+#navigation a {
+    color: white;
 }
+
+#navigation a:hover {
+    color: rgb(128, 177, 145);
+}
+
+.container {
+    margin:auto;
+    max-width:1150px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.h1-title {
+    display: inline-table;
+}
+
+nav {
+    position: sticky;
+}
+
+#hamburger {
+    display:none;
+}
+
+/* Container Media Queries */
+@media screen and (max-width:1250px) and (min-width:875px) {
+    .container {
+    max-width:950px;
+    }
+}
+@media screen and (max-width:874px) and (min-width:675px) {
+    .container {
+    max-width:675px;
+    }
+}
+
   @media screen and (max-width:576px) {
     .noImg {
         display:none;
     }
   }
-@media screen and (max-width:875px) {
+
+@media screen and (min-width:700px) {
+    #navigation ul {
+    display: inline-flex;
+    padding: 0;
+    }
+    #navigation {
+        display: block;
+    }
+    #footer ul {
+        display: inline-flex;
+        padding: 0;
+    }
+}
+@media screen and (max-width:700px) {
     #navigation {
         display:none;
-        position: absolute;
-        z-index: 1000;
+        z-index:1000;
+    }
+    #hamburger {
+        display:inline-block;
+    }
+    #navigation ul {
+        background-color: #8c6e77;
+    }
+    #navigation li {
+        background-color: none;
+    }
+    #footer ul {
+        text-align:center;
     }
 }
