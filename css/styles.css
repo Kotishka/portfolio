@@ -2,81 +2,48 @@
 /* CSS Document */
 
 .maincontent {
-    min-height: 250px;
-    width:100%;
-    padding: 20px 10px;
+    background-image: url('../img/Atlanta3.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    opacity: .9;
+}
+
+.maincontent a {
+    color: white;
+    font-size: 1.3rem;
+    opacity: 1;
+}
+
+.maincontent h1 {
+    font-size: 3.5rem;
+    opacity: 1;
 }
 
 p {
     margin: 10px 0;
 }
 
-/* footer */
-footer {
-    margin: 0 auto;
-    width: 100%;
-}
-
-#footer ul {
-    list-style-type: none;
-    overflow: auto;
-    width: 100%;
-    margin: 0;
-}
-#footer li {
-    clear:both;
-    padding: 10px 0;
-    margin: auto;
-}
-
-#footer a {
-    color: black;
+h3 {
+    font-size: 1.5rem;
 }
 
 .content_section {
     margin: 40px auto;
     width: 85%;
 }
-.about_me img {
-    width: 101% !important;
-}
 
-.maincontent div img {
+img {
     width: 100%;
 }
 
 .row {
     margin: auto;
 }
-.about_me {
-    max-width:33%;
-    display: inline-block;
-}
-
-#navigation ul {
-    list-style-type: none;
-    overflow: auto;
-    width: 100%;
-    margin: 0;
-    background-color: #8c6e77;
-}
-#navigation li {
-    clear:both;
-    padding: 10px 0;
-    margin: auto;
-}
-
-#navigation a {
-    color: white;
-}
-
-#navigation a:hover {
-    color: rgb(128, 177, 145);
-}
 
 .container {
     margin:auto;
-    max-width:1150px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -88,8 +55,20 @@ nav {
     position: sticky;
 }
 
-#hamburger {
-    display:none;
+header {
+    padding: 150px 0 110px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.bg-light {
+    background-color: #f4f5f7;
+}
+
+.btn-success {
+    color: white !important;
 }
 
 /* Container Media Queries */

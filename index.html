@@ -8,104 +8,179 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="css/hamburgers.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <title>Yaroslava Boyko</title>
 </head>
 
-<body class="container">
-  <header>
-    <nav>
-      <button id="hamburger" class="hamburger hamburger--collapse" type="button" onclick="myFunction()" aria-label="Menu" aria-controls="navigation"
-        aria-expanded="true/false">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <div id="navigation">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="aboutme.html">About Me</a>
-          </li>
-          <li>
-            <a href="projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
+<body id="top">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main_nav">
+    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active"> <a class="nav-link" href="#top">Home</a></li>
+	    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a></li>
+	    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactme">Contact</a></li>
+    </ul>
+  </div> 
+</nav>
+
+<header class="bg-white text-white maincontent">
+    <div class="container text-center">
+      <h1>Yaroslava Boyko</h1>
+      <p><a href="mailto:yboyko3@gatech.edu" target="_blank" rel="noopener norefferer">Email</a> | 
+          <a href="https://github.com/Kotishka" target="_blank" rel="noopener norefferer">Github</a> | 
+          <a href="https://www.linkedin.com/in/yaroslavaboyko/" target="_blank" rel="noopener norefferer">Linkedin</a>
+          </p>
+    </div>
+</header>
+
+
+  <section id ="aboutme">
+      <div class="row container">
+        <div class="col-lg-8">
+            <h2>About Me</h2>
+            <p>Hi! My name is Yaroslava Boyko. I'm a fourth year student at Georgia Institute of Technology. I am studying Computer
+                Science and I aiming to graduate Spring 2021. I am interested in Databases, Computer Architecture and Information Security.
+            </p>
+            <p>During my freetime, I enjoy spending time with family and friends, hiking with my dog, playing board games, and playing video games. 
+            </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/Paige.jpg" alt="Paige, my cat, at 1 and 1/2." />
+        </div>
       </div>
-    </nav>
-  </header>
-  <div style="clear:both"></div>
-
-  <main class="maincontent">
-    <div>
-      <img src="img/Atlanta.jpg" alt="Atlanta Buidlings from 1-75 N" />
     </div>
-  </main>
+  </section>
 
-  <footer class="footer">
-    <div id="footer">
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href=" ">Sitemap</a>
-        </li>
-        <li>
-          <a href="Credit.html">Credit</a>
-        </li>
-        <li>
-          <a href="projects.html">Accessibility</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  </footer>
+  <section id ="projects" class="bg-light">
+      <div class="row container">
+        <div class="col-lg-12">
+          <h2>Projects</h2>
+          <h3>Query Parser</h3>
+          <p><i>Spring 2020</i> | <a href="https://github.com/Query-Parser/Query-Parser" target="_blank" rel="noopener norefferer">Github</a><br />
+            The goal of the application is to make a query parser that uses one query language to run against other databases. 
+            This application assists the users in managing data in databases with RMDB SQL familiarity. 
+            This allows users not to worry about how to access data from other database systems, and this also provides users the convenience of knowing only one domain specific language but can still work with others.
+          </p>
+          <h3>GTrader</h3>
+          <p><i>Summer 2019</i> | <a href="https://github.com/200poundsofo2/GTrader" target="_blank" rel="noopener norefferer">Github</a><br />
+            GTrader is an adaptation of the game Space Trader.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <section id ="resume">
+      <div class="row container">
+        <div class="col-lg-12">
+          <h2>Resume</h2>
+          <p>
+              <a href="mailto:ysboyko@gmail.com">ysboyko@gmail.com</a> | 678-836-5356 | Atlanta, GA
+              <br />
+              <a href="https://linkedin.com/in/yaroslavaboyko" target="_blank" rel="noopener noreferrer">linkedin.com/in/yaroslavaboyko</a> |
+              <a href="https://linkedin.com/in/yaroslavaboyko" target="_blank" rel="noopener noreferrer">github.com/Kotishka</a>
+          </p>
+          <h3>Education</h3>
+          <p>Bachelors of Science - Computer Science
+              <br /> Georgia Institute of Technology
+              <br />
+              <i>2019 - Present</i>
+          </p>
+          <p>Bachelors of Science - Computer Science
+              <br /> Georgia State University
+              <br />
+              <i>2017 - 2018</i>
+              <br /> GPA: 3.90
+          </p>
+          <h3>Work Experience</h3>
+          <p>Sophicity | Alpharetta, GA | Web Developer Intern
+              <br />
+              <i>March 2015 - Present</i>
+          </p>
+          <p>Sophicity provides IT consulting and services to city governments and municipal leagues.</p>
+          <ul>
+              <li>Resolved website related issues and managed requests for clients via phone and email in a efficient manner.</li>
+              <li>Edited and published website content for 60+ small and medium sized websites.</li>
+              <li>Successfully adapted 40+ medium sized websites to become ADA compliant based on the WCAG 2.0 Level AA standards.</li>
+              <li>Tested websites for functionality, performance, responsiveness, and accessibility.</li>
+              <li>Tested websites on desktop and mobile devices.</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <section id ="contactme" class="bg-light">
+      <form id="contact-form" method="post" action="contact.php" role="form">      
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12"><h2>Contact</h2></div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="formfirstname">First Name *</label>
+                          <input type="text" id="formfirstname" name="First Name" class="form-control" required="required" data-error="Please enter a First Name.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="formlastname">Last Name *</label>
+                          <input type="text" id="formlastname" name="Last Name" class="form-control"  required="required" data-error="Please enter a Last Name.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="formemail">Email *</label>
+                          <input type="text" id="formemail" name="Email" class="form-control"  required="required" data-error="Please leave your email.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="formphone">Phone</label>
+                          <input id="formphone" type="tel" name="phone" class="form-control">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="formsubject">Subject *</label>
+                          <input type="text" id="formsubject" name="Email" class="form-control" required="required" data-error="Please describe the subject.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="formmessage">Message *</label>
+                          <textarea id="formmessage" name="message" class="form-control" rows="4" required="required" data-error="Please leave a message."></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-12 text-center text-md-left">
+                      <a class="btn btn-success" onclick="document.getElementById('contact-form').submit();">Send</a>
+                  </div>
+              </div>
+              
+          </div>
+      
+      </form>
+  </section>
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-  <script>
-    function myFunction() {
-      //allows hamburger transition
-      var x = document.getElementById("hamburger");
-      if (x.classList) {
-        x.classList.toggle("is-active");
-      } else {
-        // For IE9
-        var classes = x.className.split(" ");
-        var i = classes.indexOf("is-active");
-
-        if (i >= 0)
-          classes.splice(i, 1);
-        else {
-          classes.push("is-active");
-        }
-        x.className = classes.join(" ");
-      }
-      //shows menu
-      var menu = document.getElementById("navigation");
-      if (menu.style.display === "block") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "block";
-      }
-    }
-  </script>
 
 </body>
 
