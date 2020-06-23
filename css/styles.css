@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .maincontent {
-    background-image: url('../img/Atlanta3.jpg');
+    background-image: url('/img/atlanta3.jpg');
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
