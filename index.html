@@ -4,173 +4,183 @@
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta charset="utf-8">
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
   <title>Yaroslava Boyko</title>
 </head>
 
 <body id="top">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="main_nav">
-    <ul class="navbar-nav ml-auto">
-	    <li class="nav-item active"> <a class="nav-link" href="#top">Home</a></li>
-	    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a></li>
-	    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactme">Contact</a></li>
-    </ul>
-  </div> 
-</nav>
+  <nav class="navbar navbar-expand-sm navbar-dark elegant-color fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main_nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> <a class="nav-link" href="#top">Home</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactme">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<header class="bg-white text-white maincontent">
+  <header class="bg-white text-white maincontent">
     <div class="container text-center">
-      <h1>Yaroslava Boyko</h1>
-      <p><a href="mailto:yboyko3@gatech.edu" target="_blank" rel="noopener norefferer">Email</a> | 
-          <a href="https://github.com/Kotishka" target="_blank" rel="noopener norefferer">Github</a> | 
-          <a href="https://www.linkedin.com/in/yaroslavaboyko/" target="_blank" rel="noopener norefferer">Linkedin</a>
-          </p>
+      <h1 class="longer-animated fadeIn">Yaroslava Boyko</h1>
+      <p class="longer-animated fadeIn"><a href="mailto:yboyko3@gatech.edu" target="_blank"
+          rel="noopener norefferer">Email</a> |
+        <a href="https://github.com/Kotishka" target="_blank" rel="noopener norefferer">Github</a> |
+        <a href="https://www.linkedin.com/in/yaroslavaboyko/" target="_blank" rel="noopener norefferer">Linkedin</a>
+      </p>
     </div>
-</header>
+  </header>
 
 
-  <section id ="aboutme">
-      <div class="row container">
-        <div class="col-lg-8">
-            <h2>About Me</h2>
-            <p>Hi! My name is Yaroslava Boyko. I'm a fourth year student at Georgia Institute of Technology. I am studying Computer
-                Science and I aiming to graduate Spring 2021. I am interested in Databases, Computer Architecture and Information Security.
-            </p>
-            <p>During my freetime, I enjoy spending time with family and friends, hiking with my dog, playing board games, and playing video games. 
-            </p>
+  <section id="aboutme">
+    <div class="row container">
+      <div class="col-lg-8">
+        <h2>About Me</h2>
+        <p>Hi! My name is Yaroslava Boyko. I'm a fourth year student at Georgia Institute of Technology. I am studying
+          Computer
+          Science and I aiming to graduate Spring 2021. I am interested in Databases, Computer Architecture and
+          Information Security.
+        </p>
+        <p>During my freetime, I enjoy spending time with family and friends, hiking with my dog, playing board games,
+          and playing video games.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/Paige.jpg" alt="Paige, my cat, at 1 and 1/2." />
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="projects" class="grey lighten-4">
+    <div class="row container">
+      <div class="col-lg-12 px-0">
+        <h2>Projects</h2>
+      </div>
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <div class="card-body">
+              <h3 class="card-title">Query Parser</h3>
+              <p>
+                <i>Spring 2020</i> | <a href="https://github.com/Query-Parser/Query-Parser" target="_blank"
+                  rel="noopener norefferer">Github</a><br />
+                The goal of the application is to make a query parser that uses one query language to run against
+                other
+                databases.
+                This application assists the users in managing data in databases with RMDB SQL familiarity.
+                This allows users not to worry about how to access data from other database systems, and this also
+                provides
+                users the convenience of knowing only one domain specific language but can still work with others.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/Query_Parser.PNG" class="card-img" alt="">
+          </div>
         </div>
-        <div class="col-lg-4">
-          <img src="img/Paige.jpg" alt="Paige, my cat, at 1 and 1/2." />
+      </div>
+
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <img src="img/Query_Parser.PNG" class="card-img" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="card-body">
+              <h4 class="card-title">GTrader</h4>
+              <p class="card-text">
+                <i>Summer 2019</i> | <a href="https://github.com/200poundsofo2/GTrader" target="_blank"
+                  rel="noopener norefferer">Github</a><br />
+                GTrader is an adaptation of the game Space Trader.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <div class="card-body">
+              <h4 class="card-title">BeltLine</h4>
+              <p class="card-text">
+                <i>Spring 2019</i> | <a href="https://github.com/cs4400team103/BeltLine" target="_blank"
+                  rel="noopener norefferer">Github</a><br />
+                The BeltLine is a transportation application that manages users, visitors, and employees.
+                The main purpose of the application is to understand how to use and query with a MySQL Database.
+                This was a class project for CS 4400, Introduction to Database Systems.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/Query_Parser.PNG" class="card-img" alt="">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id ="projects" class="bg-light">
-      <div class="row container">
-        <div class="col-lg-12">
-          <h2>Projects</h2>
-          <h3>Query Parser</h3>
-          <p><i>Spring 2020</i> | <a href="https://github.com/Query-Parser/Query-Parser" target="_blank" rel="noopener norefferer">Github</a><br />
-            The goal of the application is to make a query parser that uses one query language to run against other databases. 
-            This application assists the users in managing data in databases with RMDB SQL familiarity. 
-            This allows users not to worry about how to access data from other database systems, and this also provides users the convenience of knowing only one domain specific language but can still work with others.
-          </p>
-          <h3>GTrader</h3>
-          <p><i>Summer 2019</i> | <a href="https://github.com/200poundsofo2/GTrader" target="_blank" rel="noopener norefferer">Github</a><br />
-            GTrader is an adaptation of the game Space Trader.
-          </p>
-          <h3>BeltLine</h3>
-          <p><i>Spring 2019</i> | <a href="https://github.com/cs4400team103/BeltLine" target="_blank" rel="noopener norefferer">Github</a><br />
-            The BeltLine is a transportation application that manages users, visitors, and employees. 
-            The main purpose of the application is to understand how to use and query with a MySQL Database. 
-            This was a class project for CS 4400, Introduction to Database Systems.</p>
-        </div>
+  <section id="skills">
+    <div class="row container">
+      <div class="col-lg-6">
+        <h2>Relevent Courses</h2>
+        <p>Introduction to Object Oriented Programming<br />
+          Introduction to Database Systems<br />
+          Emerging Database Technologies and Applications<br />
+          Data Structures and Algorithms<br />
+          Design and Analysis of Algorithms<br />
+          Computer Organization and Programming</p>
       </div>
+      <div class="col-lg-6">
+        <h2>Skills and Tools</h2>
+        
+        <p><strong>Tools</strong>: Bootstrap, Git, Visual Studio (Code), Android Studio<br />
+          <strong>Languages</strong>: HTML, CSS, Java, C, MySQL, Javascript<br />
+          <strong>Databases</strong>: MySQL, MongoDB, Firebase<br />
+          <strong>Operating System</strong>: WindowsOS<br />
+          <strong>Spoken Languages</strong>: English (Native), Russian (Proficient), Ukrainian (Elementary), Spanish (Elementary)</p>
+      </div>
+    </div>
   </section>
 
-  <section id ="resume">
-      <div class="row container">
-        <div class="col-lg-6">
-          <h2>Skills</h2>
-          <p>Tools: Bootstrap, Git<br />
-            Languages: HTML, CSS, Java, C, SQL<br />
-            Databases: MongoDB, Firebase, MySQL<br />
-            Operating System: WindowsOS<br />
-            Spoken Languages: English native, Russian proficient</p>
-          </div>
-            <div class="col-lg-6">
-          <h2>Relevent Courses</h2>
-          <p>Introduction to Object Oriented Programming<br />
-            Introduction to Database Systems<br />
-            Emerging Database Technologies and Applications<br />
-            Data Structures and Algorithms<br />
-            Design and Analysis of Algorithms<br />
-            Computer Organization and Programming</p>
-         
-          
-        </div>
+  <section id="contactme" class="grey lighten-4">
+    <div class="row container">
+      <div class="col-md-12">
+        <h2>Contact</h2>
+        <a href="mailto:yboyko3@gatech.edu" target="_blank"
+          rel="noopener norefferer"><button type="button" class="btn btn-email"><i class="fas fa-envelope pr-1"></i> Email</button></a>
+          <a href="https://www.linkedin.com/in/yaroslavaboyko/" target="_blank" rel="noopener norefferer"><button type="button" class="btn btn-li"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button></a>
+        <a href="https://github.com/Kotishka" target="_blank" rel="noopener norefferer"></a><button type="button" class="btn btn-git"><i class="fab fa-github pr-1"></i> Github</button></a>
+      </p>  
+    
       </div>
-  </section>
-
-  <section id ="contactme" class="bg-light">
-      <form id="contact-form" method="post" action="contact.php" role="form">      
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12"><h2>Contact</h2></div>
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <label for="formfirstname">First Name *</label>
-                          <input type="text" id="formfirstname" name="First Name" class="form-control" required="required" data-error="Please enter a First Name.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <label for="formlastname">Last Name *</label>
-                          <input type="text" id="formlastname" name="Last Name" class="form-control"  required="required" data-error="Please enter a Last Name.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <label for="formemail">Email *</label>
-                          <input type="text" id="formemail" name="Email" class="form-control"  required="required" data-error="Please leave your email.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <label for="formphone">Phone</label>
-                          <input id="formphone" type="tel" name="phone" class="form-control">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="form-group">
-                          <label for="formsubject">Subject *</label>
-                          <input type="text" id="formsubject" name="Email" class="form-control" required="required" data-error="Please describe the subject.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="form-group">
-                          <label for="formmessage">Message *</label>
-                          <textarea id="formmessage" name="message" class="form-control" rows="4" required="required" data-error="Please leave a message."></textarea>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-12 text-center text-md-left">
-                      <a class="btn btn-success" onclick="document.getElementById('contact-form').submit();">Send</a>
-                  </div>
-              </div>
-              
-          </div>
-      
       </form>
   </section>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 
 </body>
 

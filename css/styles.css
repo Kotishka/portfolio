@@ -2,121 +2,133 @@
 /* CSS Document */
 
 .maincontent {
-    background-image: url('/img/atlanta3.jpg');
-    background-size: cover;
-    background-position: top;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    opacity: .9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/atlanta3.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
 }
 
 .maincontent a {
-    color: white;
-    font-size: 1.3rem;
-    opacity: 1;
+  color: white;
+  font-size: 1.3rem;
+  opacity: 1;
 }
 
 .maincontent h1 {
-    font-size: 3.5rem;
-    opacity: 1;
+  font-size: 3.5rem;
+  opacity: 1;
+}
+
+.longer-animated {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeout-overlay .mask:hover {
+  opacity: 0;
+}
+
+.fadeout-overlay .mask {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.no-gutters img {
+  padding: 15px;
 }
 
 p {
-    margin: 10px 0;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2.4rem !important;
+  margin-bottom: 15px !important;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .content_section {
-    margin: 40px auto;
-    width: 85%;
+  margin: 40px auto !important;
+  width: 85%;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .row {
-    margin: auto;
+  margin: auto;
 }
 
 .container {
-    margin:auto;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: auto !important;
 }
 
-.h1-title {
-    display: inline-table;
+strong {
+    font-weight: bold !important;
+}
+
+.btn-li {
+    color: #fff !important;
+    background-color: #0082ca !important;
+}
+
+.btn-git {
+    color: #fff !important;
+    background-color: #333 !important;
+}
+
+.btn-email {
+    color: #fff !important;
+    background-color: #4b515d !important;
 }
 
 nav {
-    position: sticky;
+  position: sticky;
 }
 
 header {
-    padding: 150px 0 110px;
+  padding: 150px 0 110px;
 }
 
 section {
-    padding: 50px 0;
-}
-
-.bg-light {
-    background-color: #f4f5f7;
+  padding: 50px 0;
 }
 
 .btn-success {
-    color: white !important;
+  color: white !important;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-weight: 400 !important;
 }
 
 /* Container Media Queries */
-@media screen and (max-width:1250px) and (min-width:875px) {
-    .container {
-    max-width:950px;
-    }
-}
-@media screen and (max-width:874px) and (min-width:675px) {
-    .container {
-    max-width:675px;
-    }
-}
 
-  @media screen and (max-width:576px) {
-    .noImg {
-        display:none;
-    }
+@media screen and (max-width: 1250px) and (min-width: 875px) {
+  .container {
+    max-width: 950px;
   }
+}
 
-@media screen and (min-width:700px) {
-    #navigation ul {
-    display: inline-flex;
-    padding: 0;
-    }
-    #navigation {
-        display: block;
-    }
-    #footer ul {
-        display: inline-flex;
-        padding: 0;
-    }
+@media screen and (max-width: 874px) and (min-width: 675px) {
+  .container {
+    max-width: 675px;
+  }
 }
-@media screen and (max-width:700px) {
-    #navigation {
-        display:none;
-        z-index:1000;
-    }
-    #hamburger {
-        display:inline-block;
-    }
-    #navigation ul {
-        background-color: #8c6e77;
-    }
-    #navigation li {
-        background-color: none;
-    }
-    #footer ul {
-        text-align:center;
-    }
+
+@media screen and (max-width: 576px) {
+  .noImg {
+    display: none;
+  }
 }
+
