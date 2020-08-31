@@ -91,6 +91,11 @@ strong {
     background-color: #4b515d !important;
 }
 
+.btn-blue-grey {
+    color: #fff !important;
+    background-color: #78909c !important;
+}
+
 nav {
   position: sticky;
 }
