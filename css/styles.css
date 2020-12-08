@@ -9,7 +9,7 @@ html {
 .maincontent {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/atlanta3.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
@@ -70,7 +70,8 @@ h2 {
     transform: scale(1.025);
 }
 
-.card img {
+.card img,
+carousel-item img {
     border-radius: .25rem;
 }
 
@@ -149,6 +150,12 @@ body {
 
 
 /* Container Media Queries */
+
+@media screen and (min-width: 1250px) {
+    .maincontent {
+        background-position: 50% 25%;
+    }
+}
 
 @media screen and (max-width: 1250px) and (min-width: 875px) {
     .container {
