@@ -6,7 +6,50 @@ html {
     scroll-behavior: smooth;
 }
 
-.maincontent {
+nav {
+    position: sticky;
+}
+
+header {
+    padding: 150px 0 110px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-weight: 400 !important;
+    position: relative;
+    overflow-y: auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2.4rem !important;
+    margin-bottom: 15px !important;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+
+/* Content Sections */
+
+.main-content {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/atlanta3.jpg");
     background-size: cover;
     background-position: center;
@@ -14,16 +57,32 @@ html {
     background-repeat: no-repeat;
 }
 
-.maincontent a {
+.main-content a {
     color: white;
     font-size: 1.3rem;
     opacity: 1;
 }
 
-.maincontent h1 {
+.main-content h1 {
     font-size: 3.5rem;
     opacity: 1;
 }
+
+.main-content a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.row {
+    margin: auto;
+}
+
+.container {
+    margin: auto !important;
+}
+
+
+/* Fading Animation */
 
 .longer-animated {
     -webkit-animation-duration: 4s;
@@ -42,18 +101,8 @@ html {
     transition: all 0.5s ease-in-out;
 }
 
-.no-gutters img {
-    padding: 15px;
-}
 
-p {
-    margin: 10px 0;
-}
-
-h2 {
-    font-size: 2.4rem !important;
-    margin-bottom: 15px !important;
-}
+/* Card Styles */
 
 .card-title {
     font-size: 1.5rem !important;
@@ -67,92 +116,44 @@ h2 {
 }
 
 .card:hover {
-    transform: scale(1.025);
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .card img,
 carousel-item img {
-    border-radius: .25rem;
+    border-radius: 0.25rem;
 }
 
-h3 {
-    font-size: 1.5rem;
-}
 
-.content_section {
-    margin: 40px auto !important;
-    width: 85%;
-}
+/* Buttons */
 
-a:hover {
-    color: white !important;
-    text-decoration: underline !important;
-}
-
-img {
-    width: 100%;
-}
-
-.row {
-    margin: auto;
-}
-
-.container {
-    margin: auto !important;
-}
-
-strong {
-    font-weight: bold !important;
+.btn {
+    color: #fff !important;
+    width: 145px;
 }
 
 .btn-li {
-    color: #fff !important;
     background-color: #0082ca !important;
 }
 
 .btn-git {
-    color: #fff !important;
     background-color: #333 !important;
 }
 
 .btn-email {
-    color: #fff !important;
     background-color: #4b515d !important;
 }
 
 .btn-blue-grey {
-    color: #fff !important;
     background-color: #78909c !important;
-}
-
-nav {
-    position: sticky;
-}
-
-header {
-    padding: 150px 0 110px;
-}
-
-section {
-    padding: 50px 0;
-}
-
-.btn-success {
-    color: white !important;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    font-weight: 400 !important;
-    position: relative;
-    overflow-y: auto;
 }
 
 
 /* Container Media Queries */
 
 @media screen and (min-width: 1250px) {
-    .maincontent {
+    .main-content {
         background-position: 50% 25%;
     }
 }
