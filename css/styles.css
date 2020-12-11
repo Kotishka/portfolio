@@ -149,6 +149,10 @@ carousel-item img {
     background-color: #78909c !important;
 }
 
+.navbar-toggler {
+    padding: .25rem 0 !important;
+}
+
 
 /* Container Media Queries */
 
